@@ -11,7 +11,8 @@ service Auth {
 
 message RegisterRequest {
     string nickname = 1;
-    string password = 2;
+    string email = 2;
+    string password = 3;
 }
 
 message RegisterResponse {
